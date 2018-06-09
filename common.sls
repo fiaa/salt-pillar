@@ -42,3 +42,8 @@ resolver:
   #   - rotate
   #   - timeout:1
   #   - attempts:5
+
+common_packages:
+  - tree
+  # - wget
+  # - curl
