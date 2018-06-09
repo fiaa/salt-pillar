@@ -48,5 +48,5 @@ common_packages:
   # - wget
   # - curl
 
-  vim:
-    managed_vimrc: False
+vim:
+  managed_vimrc: False
