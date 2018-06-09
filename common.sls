@@ -47,3 +47,6 @@ common_packages:
   - tree
   # - wget
   # - curl
+
+  vim:
+    managed_vimrc: False
