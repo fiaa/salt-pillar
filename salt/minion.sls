@@ -28,9 +28,10 @@ salt:
       roles:
         - salt_minion
 
-    # file_roots:
-    #   base:
-    #     - /srv/salt/salt
-    # pillar_roots:
-    #   base:
-    #     - /srv/salt/pillar
+    file_roots:
+      base:
+        - /srv/salt/salt
+
+    pillar_roots:
+      base:
+        - /srv/salt/pillar
