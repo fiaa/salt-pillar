@@ -44,6 +44,7 @@ resolver:
   #   - attempts:5
 
 common_packages:
+  - python-apt # to install saltstack-repo
   - tree
   # - wget
   # - curl
