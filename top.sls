@@ -6,7 +6,7 @@ base:
     - common
     - salt.minion
 
-  'G@roles:salt_master':
+  'saltmaster*':
     - salt.master
 
   'G@virtual:LXC':

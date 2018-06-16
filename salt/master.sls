@@ -14,6 +14,11 @@ salt:
 
   release: "2018.3"
 
+  minion:
+    grains:
+      roles:
+        - salt_master
+
   # salt master config
   master:
     user: salt
