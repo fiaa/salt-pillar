@@ -216,3 +216,191 @@ salt:
         =Yr6W
         -----END PGP MESSAGE-----
 
+    dev1:
+      host: 10.10.10.9
+      sudo: True
+      user: |
+        -----BEGIN PGP MESSAGE-----
+        hQIMA91AuBJffLh9AQ/9FF4dTjQwfVFYPq2CKOLuUmBoh6hjOluRZDf7ehTqkK44
+        1PPMI4lTFCegqx64YeWfk9l4sECGwQ+i7K4TxSbFuJhrYQZplgvIpgLcIauQsiYX
+        vLRihPNnryPpKxQvmcT8zQ8QU/dKy4y3bUoLbKz4mOeeYOV4GRQdkQzEC0Rf2QXl
+        Zg7Si08NsuUM7tdw0FC89RppPn3jDjPccYek+0PIn/5y28gHdHG1Spv0zNf2T+Bl
+        jUuKcqcDA2dwzBovGroLGB3g4mh7j7MBlJyQSOaaJaxN7G1ZDWSGAjVpsZa7eBgG
+        nVTtS5+jB4cwqiHYOTkoge54e9D8LjO2O5E6apQNnfRFlqmYBek+t5n67VJ+I85g
+        /VVDjp5DVHzMbq2Jo8uhjB6IpEvMq61e6MlEQAURpxMMb5ldZk1Xa7TKCV4GzA9I
+        /6Cb1cUZvuDfrqKY7K2maHJ5asEVbhlfKiuQAA8gYHmUs5t4qdc6k4z2x5xfTeJN
+        snoW3ZYNjH4THNY9SmOJrhL0iNS891QocmlWsfeasASryAeWXEhIesozTWZm+oxk
+        fBlZ8K+Oqm5rujnYkV39kRfg+trV/8rUpWCjqH0K04aL9MDDgqUIUQNzAh5cfH/D
+        KrcnKfeqmk0oTix5+8ro4AdgSHckXprbtlHGv1qxmhVM7k9cCcIGErN2i98yOmXS
+        PwH5Rsl78aYFMQ5PBz9bvCvpZa1RQF0YbFK9mHgqr50Jhp3xuyLU8AjkHJzmepPN
+        J/8YawCbIcCtVfrCb0D+UA==
+        =B24H
+        -----END PGP MESSAGE-----
+
+    sensu01:
+      host: 10.10.10.24
+      sudo: True
+      user: |
+        -----BEGIN PGP MESSAGE-----
+        hQIMA91AuBJffLh9AQ//TNZZm4CpnQFIKiY6+gRyQGQo+Y12QHyJ8oqXkfCFIEmw
+        Ydnxap21lTl8T+ViLm1PYdypRTAG6e5S7qzoUdLxnOwkVthB8tJsWiJpRHvQYzCg
+        UFODKz4ewES0TpeRoGhMBZAMnc/1S1bfabBHV9pAHJFsr+8BIPpLBusCPzgjxvJV
+        os/o0iv0hHUTbddEatJSqAjTU0aHIFczQEzpvlsU3iRaru+S4TecE3/TadNliF3u
+        OgQNZIxGSy8rJQ0l9FqhNTUvwCn0FKNIe77UjxbeuaMrJwZFNvyETSUY7rLCs+xM
+        ceOfUni1Qnuv2jWpGZO4+Glq6a8N6ogeRGrgtDE2pOYy6E0KjQZIn4YoiazTNdyq
+        SeFsKSr5UcxtXwcc7LHyG2NQDwBjc3CbA1A3iE/lqRi5JyTJVsO8b7EzUlPjWt6p
+        FFgUFsFkxXqGH6ksiOBgSC0spuoSMRsHDmsYZ/oF1z+V/KZOLc+amg5Hx5eTxtyA
+        ox7y2pP/a5eidKiW75ME0jW/Ls6krrvboqvYU+s3I+CD0jizWa/oH/M7qPDUmsX7
+        gKHC/pTz67jQNTGe5AwyyNftu2UmXH8wn/AQUoeWcslhSAmtNZBnMYmJCvpHPcMS
+        BBrdONQr8nrBPCT+vLz8jCl3+oIRmj7gRW57Oa/vwABj8f2fx3IIVPZXdITL3ifS
+        PwHdkOlUwqT1oeMQ/9ZfI6Ukmbqwn4HYYWYSBxKI9K4+zkdJNWE+GtwynvKy3NEE
+        DmnXTq8UA/u5Rf7vIDuFIg==
+        =lt1D
+        -----END PGP MESSAGE-----
+
+    sensu02:
+      host: 10.10.10.25
+      sudo: True
+      user: |
+        -----BEGIN PGP MESSAGE-----
+        hQIMA91AuBJffLh9ARAAn2CxqiC0LLLfZhIh9gZCmPwvjuk0jdTkusK9MG+0Uv/d
+        lTPvZum0xs+83iJ1QjzysR4OPK053kxyFMWbOBte2aaQoZFQlFjmvKeCVqOtUZHb
+        ozGG2UIuu4BUGeHKAEy4WFAZAEs3V4GYo6ZJXD+kA18jPKw47gHyl8SwxtfWuVoE
+        itFnSmd3H3qZG7QFGdC89VUDMIwB9aiCtoNUm2SUtT+uR1EoXi4Y+4+9tM3S0Q73
+        NW3JgbVwny4Yj7sxMSey7q8C+E6UB/o6rrJgiO+uz2eVYm9I4d5Avm5sCL4C3Dic
+        Z31H39iAoe2vFmLpGSrNt5HdF30UDJ/sgIGpNx+Gl3dFiOXqTPL2OLfoX+xCgkZH
+        YDdqWrc27/c52qL71X660uI8hi3E88bILKxEqIxGbjczTHFtN9JX7xKa/gwrc2di
+        Uq5fpaQDtzJ6N1A+48YfEE1Kg60IS4obUkz2aroHdikqKn+vviMJ6UAJecL+wXjM
+        1sUR+vkERM3oEtH+pTiKykGKNG4/S+NZUkG2/QglqrFhRLP3FA51giD8aY6KDNC/
+        3MkT4lCOGRuYSg8aoJFBo9jW1WrB1rTwEsfxl4ll/5L602WMbl1Qj8pM2+vkzmTD
+        c3LRbssG1uK943n5Bqzky7xMg9GBDMNcoK4s9Ku1oaTYUE1NiRClIQPHRaJ0pyvS
+        PwGNryPLJzYyT8Gw6u/YopB0LdtXTbQmZNlR36pji3jRUGcbJnF0orrv6i//mckG
+        qnJygY/aUs/NhcvDtyd3Kw==
+        =aBWx
+        -----END PGP MESSAGE-----
+
+    sensu03:
+      host: 10.10.10.26
+      sudo: True
+      user: |
+        -----BEGIN PGP MESSAGE-----
+        hQIMA91AuBJffLh9ARAA0EENphf9jbPYmxGxDk0r2LrWiEIvUB3PRC7nYQkAse8F
+        YBurGn/TEyUAnTZXF5B0BnfMjV8ngD8PbASeU/AjSdvKsKc/aNfbYW0UNjf4N9fo
+        4YxkuqTniTMGLwT9Z13fItjo7tocf8UartZshBXy8YlXwsHm8xTRgT3gc+ie20UB
+        7BVmxzkkok9eF0C8y6zAo5w/S8OmNWFtckL0cdflqcr6yEB1+A6vPhvGfjRWVt0h
+        eZwj1XnaGDP6ZsnWAoe+b7bZ60PirezelUChnHptlILC2/3pELrGgJDf3HxmypKs
+        dUfBAwNPPlx0dEGcb0y9Fvss56X3cE3npscrTkFgPrD6802wnBg6AsdJ+MYc7JDM
+        w/eC7G6UeLKHNoVPWF3T2KlG/ZnbGH1vuWl7JQY40h202GTZSyaf0GnhOLyxBqXx
+        gSRwWFsPopUk1tF9zwz8N8EDLh/3RMTjdiOMEGsxWufUOqGmDrznS6Vw0W4rGFxh
+        iFDOty4UtvAc1p3JZiLPTH5ymTy0YzzqQ2xNQjpuTDQ+ettoV7ZPPmQI7RbPHRQl
+        cKC79LGrTRFwaHdzxsGkfMxkuAsE0z6W2XoEJj9HCtubqlOdZjbUYkmrCifRkF9I
+        V6rYcwAHjvOGshCuCA9h4jY4mZTsujo5CO5aOw0VZ7qrQWVt4dJcon7pr6cxPcvS
+        PwH+NgWunjcuAZdWNqx3p9sm25PPj9i+eCAqllRPAFACkRItfBr/kdnLCOq/XvQ4
+        QrF12H5IM45ZniWWuioHtw==
+        =pNOQ
+        -----END PGP MESSAGE-----
+
+    redismq01:
+      host: 10.10.10.27
+      sudo: True
+      user: |
+        -----BEGIN PGP MESSAGE-----
+        hQIMA91AuBJffLh9AQ//TDnAm61LqmTVygr31QG3DB7iDOWbGQDqZapYtqrHN2+f
+        aSLKbSLuXFR8v7dUnvWrOogZlFgxH+smRbU/2NYLl+8EHZlj8IY1zhai5k7DBqUC
+        Zeoa3eAWIjfIp6kkqSMyhue5TWBA1WkePUatA0Nfq8tsujfKGfT5lXUweTUdgFha
+        qN4rzFGsNBdqw5LHDk9iIfYSglkfEXEnpW4dxQlA5N1yrKPDJ/kKzNN/cgpJamMS
+        uX4GA90e2g0+C5Bk+sO9eZoSAax6FrQC5vw6Qiif9eRlQsaNCt2DUOiIBI0hPF0x
+        e1XWUV5L3mh8FrJ9Jmmh0z4exmKm2rIIFk5q0AXhrZI5tYPdULBYvpys4YwDyDvn
+        i2hMqNtV64ElrhGqD7AQF+SJ3jbKIQv2KZpwTTJh5cE9/woxj3XjUhumq6klqWbO
+        bmAHSqLbdrnlPi7p5iwu1S+zOioxAfoQL3eyyW/1QRRvz7PIcWV0mqAIb2lmrXNG
+        gD1NgLqGMF1YSE1ue3wA4FaMZEqUo3bsQiej6fE8WZNNsawEYTr3Iajaw13Mwf6z
+        ZmZ5Eg8AjJpQdUt1l/d49sOuYIO2Z8UxgfD8RuN+VmayOWe2BEwLZe6yQBhKYF+z
+        fB5U8nTHOLHPgP58PJRoGqYc/jBsgDWBiSzOUHmHWti4Wc4gf4Eoo0LxecoThe/S
+        PwHDWQAkW+wQC1jofQk/m/aPnFfK+jWckHTXyWMrAMwph28eKZjdlPn3SepOd72l
+        Zk11rNOngxjTE8cnunR0PQ==
+        =uuN0
+        -----END PGP MESSAGE-----
+
+    redismq02:
+      host: 10.10.10.28
+      sudo: True
+      user: |
+        -----BEGIN PGP MESSAGE-----
+        hQIMA91AuBJffLh9AQ/+Nz7aUEPhIyWStFMr2QCqSohc05jFgo3jwmGEG2QVui/p
+        gBY4zqyWhmPtxgIbPVBPKzX05tf6LmOURJqZQubmLXYqvcb7O6/aHdqk94vEcpTq
+        vNmvKcEpJuUN3ZuUTsB6uldvfmUVnBfV1hp98Mn1oXLuLMCkcVHhv1lpFSa7l0j9
+        6PO+KjG8sNF7ax9BxnOPa6fHn2RmisJ9fMbHgwHZhCAEdcvIsTx4XkHqQ9BnMe8I
+        TWSNZvwf2RKm4+NJFoPG5/P00ZQeHsBFPXhDJQG9SIbe7ldiQEr/FZHNgT5G0EMU
+        q7zGXChM6R45rsFXfEJZF2fIldwdXuAjRCRedzAzyl0zPxbO+Do7U4xTrR1RdBQC
+        09nfmrR1hMmPc8tUnn+l2ff5SWMbTToSDmqUqdxDYWVaNeZth1Kt/6Zk98lN1xVd
+        TRpCFWJHtV326TZ04whoWtraHB8d5aTxBVrzrimP+Q9RVfXogPoCvti92yNHOSL8
+        fTQc4OSb+JFWdcrOpN19Lb0t1QrCuqUK8HX3KedrHNn+8LnTX6mSeaM3ugbAuM/A
+        0UcrkJy4FHE4jPTZaQAR9PLS7ZH0+WxVF4oUjfeoZ/TM6kz1hochtnzmvsN0qsPQ
+        LxVf4+sAN1NXWnm1IJ0LBgkrx9E10R2Q3MvM0ipoCFctrY1EEUcPzba0Ls6dlwnS
+        PwGgvX41j0vsZdYAe3Pl424ZCLlU6CKi03btJVmxq16PirQPqwFjlzCKLsnmrWU1
+        zKTtFUFC+yHQGvhKMb3Omg==
+        =tQCw
+        -----END PGP MESSAGE-----
+
+    redismq03:
+      host: 10.10.10.29
+      sudo: True
+      user: |
+        -----BEGIN PGP MESSAGE-----
+        hQIMA91AuBJffLh9AQ//Uyeru+WKbDPZHDfsxPeC+YekBrPiXTBUpyfjPqnhBlb3
+        v0HucV6ZXjglyolR/T8oz0swa+jK1ANsqsWaF6Qxtr13tMvURrd8jTn747W0HVxH
+        wr26R8KQ/rXEjk4+Vl3cLejRX9Hpz/5N9XmwtuaCd/b/XQQu1orFuDinUxMCE7/P
+        5EIldngXZhxyUUOdx0ORRBe8BnA9CbWrRN2er65fSaTdl0rEk/uEHbnqIwQYmxNe
+        FJGreiJVY8kxJ+kO6DgxYnIj7fC3wuwByVFhyvFdvoqTNN/Uz27WWBCQwkDf9zG+
+        smpZKolWy8O/igrvhB1BHYn/w4TcDxzoIC5akBQoMYlindaObOSmKDCrRtemvqHP
+        3Ribsmcl2sYiRW1ACVUekZa26U1mBRQPThjj5J50emGjcdNs2618ebQEeHlyxiHJ
+        Z2cf3Q/wA0hA3aE1gk6NfeOBkrnbxJ4nnaWEdpX/KoyJIL88Y98n4l8sCzPyiQAo
+        XcP0RaH62IRYZx9YFBbW1ymnxp+mqDXIt3bkkBD0W8UjMR/oqV8XyZIjKVrz6dbA
+        CEWfl4NnhPLAvcc6ox1MdXapetmwJxm/NMdZ1k8NutS5XiAhWyDvnWB8PsY3RFaQ
+        CoUMFyyZy/JcLzspB1PROOFcr//dcfw7uZpRhu6EKqfiMcsDTBDBSf6wpyieCQfS
+        PwFyvt62S6YOccZMg9QgA/1j5E6ZRtNbAR7CNj4Ev//dNO55c97aySfw5IqNieh/
+        C2embwCju0nPAOc4v0h68w==
+        =U2bb
+        -----END PGP MESSAGE-----
+
+    graphite01:
+      host: 10.10.10.30
+      sudo: True
+      user: |
+        -----BEGIN PGP MESSAGE-----
+        hQIMA91AuBJffLh9AQ//SnybFzf508lW/yD0jFa/qFzsAka5D6Fl1ltUr6ILy4FQ
+        xJ0gS72YZRuPg9PI+y2FbPrbHvopNj6AatD/cmqBffDb07HwrvNX/xgpGUK/RGNB
+        drdcMOQUN6QcAQ3s2zY6oMoIveIowCiTN6Zdf7ryVpMbIzT0uHsmhFrMzp/vMZLx
+        qfTlYhlk+zdQP845O2UHERqIo+wmyePxL/e1RxEoiMfcQF2reE9xnZM9udd6jRHG
+        SbhhU1Kx+NicP2Kl2KnSoYpD1JXwf8amWFhPsbCtGwnbFZ6S4bZWr0Aa9AStNnUD
+        Ae7U2WGQogLZMSAP1xxGvzijZ4gJf6wOoV9hIaPkSYK94kRgOtUdpYzUxtno1Mgr
+        Fz9N/iwQHvWxT8Ok9Te6GNcbZp8vKTbrW3CuAf+amdGpSiN8sORJX6hWYhqGhD8M
+        LiWWiKr39BRw+7RqRHQ8Nl5PxL/d11rPuSzUMaL+RUWVdt95OPuO+uPpzheNFYzo
+        30wkVznCd2ExHD0mztwVBLrpg0Nsaw78nKqVobHEf1bQE8rcGS3CJeayv9HsGn29
+        isz4KUunDfkAcxIKhDwgbo3jORy97XvvMieqHgb51sVvPjssqiGsRJo7MGev7c3f
+        ss0Fuv8qsGcivsGJZ7N0/NvAio0qVX+KY4hkruBKc7N+jhmkkzxFQFTXvzle5TzS
+        PwH37iNG2F54hX7E9mhb7jJ++ptitk+xsopfvwS4smHN4MHPgylruy1ngPeGzQBL
+        oQHYWJjZHnOOqjQMPO7YkQ==
+        =+V28
+        -----END PGP MESSAGE-----
+
+    grafana01:
+      host: 10.10.10.31
+      sudo: True
+      user: |
+        -----BEGIN PGP MESSAGE-----
+        hQIMA91AuBJffLh9AQ/9EQcP5NLgnnQAIWjZxa1AKxn5zcEV8L7cLZy+3GN15SXv
+        L5nkuboAAlIiNVp3zfMli2hJHEaM+eo7AcPr4+dIxssWTYkr6q7pqL3k4KNEiTIz
+        zS2GKT57m/161xSL3Z7bI4cwzC2Dd5p3tQerl/APOnnTgM+lzNjFEP3i3elOJtwd
+        2CYgJp0D+TUZpHKAzSktJvjL2ej56iipRZ++Rg7fzBDkMarPn41Axns9+ZpEC6UL
+        A0N4TETWsbUNt/W3EuYQncGkwFaMXCfYhlSDYLtQZnbUlTz/mde/M8EAU0sD6fws
+        dVnzc2cWlZuue4DG3KL/+Ve0IGL9qaRwkW+0yaag1nWgKuVVytvka1s25a8S+rXw
+        RDfahyGud7FQapLc0QdvJK+bxYacvpAD+0S12KRT+thxPweURVAyOxG7ii4/OstL
+        8ogIpPS3CfPv2H3cuqGp9asj6m+cDQyfddMH0LYbxtnxpZe7kFbaFzMSg3+4eHEP
+        9wwGmbUYCxGH4b/LeXmytVAMc94TMlO3mpJWSh72LNSQ4GZsVt8xn+X51k4n0M4Z
+        R5CKj3sQnffwOezVUJr5hk/bsp3pvKOQAI2RWQdY1Dxv30ww3VYhP6+b0MlItT3q
+        RXwc24djZQ3gVrkRIwWO9hZ/xANHNivPNqUIrzZAGB7Wy6yQaxHu57wL9y3wGufS
+        PwG9n8iyMGd7gLqrImYdUQdb6DrNJoTrx16GGlMj6V2o45vOdTnVsESA4Eu9Dr0K
+        +pq2Z5EcD59YfFCS5TZlPg==
+        =xWvk
+        -----END PGP MESSAGE-----
