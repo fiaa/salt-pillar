@@ -44,7 +44,9 @@ resolver:
   #   - attempts:5
 
 common_packages:
+{% if grains.get('os_family') == 'Debian' %}
   - python-apt # to install saltstack-repo
+{% endif %}
   - tree
   # - wget
   # - curl
