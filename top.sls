@@ -5,7 +5,7 @@ base:
   '*':
     - common
     - salt.minion
-    #- sensu.client
+    - sensu.client
 
   'G@roles:salt_master':
     - salt.master
