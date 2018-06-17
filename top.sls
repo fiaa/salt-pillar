@@ -24,3 +24,12 @@ base:
 
   'G@roles:sensu and G@roles:rabbitmq':
     - rabbitmq.sensu
+
+  'G@roles:sensu and G@roles:redis and G@redis_roles:master':
+    - redis.master_sensu
+
+  'G@roles:sensu and G@roles:redis and G@redis_roles:slave':
+    - redis.slave_sensu
+
+  'G@roles:sensu and G@roles:redis and G@redis_roles:sentinel':
+    - redis.sentinel_sensu
