@@ -7,7 +7,7 @@ base:
     - salt.minion
     #- sensu.client
 
-  'saltmaster*':
+  'G@roles:salt_master':
     - salt.master
 
   'G@virtual:LXC':
