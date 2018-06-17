@@ -24,10 +24,6 @@ salt:
       #- salt_master_1
       #- salt_master_2
 
-    grains:
-      roles:
-        - salt_minion
-
     file_roots:
       base:
         - /srv/salt/salt
