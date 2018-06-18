@@ -153,7 +153,7 @@ sensu:
       port: 4567
       ssl: False
       insecure: False
-      path:
+      #path: 
       user: |
         -----BEGIN PGP MESSAGE-----
         hQIMA91AuBJffLh9AQ//U1uMhsYbMvFKt5f1H09vCvqpA1QDt8xN8zq95fwuvR/L
