@@ -5,8 +5,8 @@ base:
   '*':
     - common
     - salt.minion
-    - sensu
-    #- sensu.client
+    - sensu.client
+    - sensu.rabbitmq
 
   'G@roles:salt_master':
     - salt.master
@@ -14,14 +14,18 @@ base:
   'G@virtual:LXC':
     - salt.minion_dev
 
-  #'G@roles:sensu and G@sensu_roles:server':
-  #  - sensu.server
+  'G@roles:sensu and G@sensu_roles:server':
+    - sensu.server
+    - sensu.api
+    - sensu.redis
+    - sensu.rabbitmq
 
-  #'G@roles:sensu and G@sensu_roles:api':
-  #  - sensu.api
+  'G@roles:sensu and G@sensu_roles:api':
+    - sensu.api
+    - sensu.redis
 
-  #'G@roles:sensu and G@sensu_roles:uchiwa':
-  #  - sensu.uchiwa
+  'G@roles:sensu and G@sensu_roles:uchiwa':
+    - sensu.uchiwa
 
   'G@roles:sensu and G@roles:rabbitmq':
     - rabbitmq.sensu
