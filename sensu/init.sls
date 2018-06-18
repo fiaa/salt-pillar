@@ -172,7 +172,7 @@ sensu:
         =APPx
         -----END PGP MESSAGE-----
 
-      password: |
+      pass: |
         -----BEGIN PGP MESSAGE-----
         hQIMA91AuBJffLh9AQ//ViCWUx1Y9brnJNMKOL5dSbHGvr1KVAg/WS+8QwWrpGBM
         C1OWyw10EAYz9/Ia4VJMcENKfjx5ZUZKu8JYO1/sXX6/dm5OmIl9RJG6MOaOXYgC
