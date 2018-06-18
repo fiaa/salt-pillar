@@ -63,7 +63,8 @@ sensu:
       - carrot-top
 
   api:
-    host: 10.10.10.25
+    host: {{ primary_ip }}
+    bind: {{ primary_ip }}
     port: 4567
     user: |
       -----BEGIN PGP MESSAGE-----
