@@ -2,6 +2,7 @@
 sensu:
   rabbitmq:
     host: redismq01
+    vhost: /sensu
     user: sensu
     password: |
       -----BEGIN PGP MESSAGE-----
