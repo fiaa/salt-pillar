@@ -1,5 +1,5 @@
 #!jinja|yaml|gpg
-{% set primary_ip = salt.grains.get('ip4_interfaces:eth0', ['0.0.0.0'])[0] %}
+{% set primary_ip = salt.grains.get('fqdn_ip4') %}
 sensu:
   uchiwa:
     host: {{ primary_ip }}
