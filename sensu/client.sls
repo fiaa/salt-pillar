@@ -1,6 +1,6 @@
 #!jinja|yaml|gpg
 {% set roles = salt.grains.get('roles', []) %}
-{% set primary_ip = salt.grains.get('ipv4')[0] %}
+{% set primary_ip = salt.grains.get('primary_ip') %}
 {% set subscriptions = ['all'] %}
 
 {% if roles and 'redis' in roles %}

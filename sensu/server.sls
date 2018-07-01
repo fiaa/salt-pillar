@@ -1,5 +1,5 @@
 #!jinja|yaml|gpg
-{% set primary_ip = salt.grains.get('ipv4')[0] %}
+{% set primary_ip = salt.grains.get('primary_ip') %}
 sensu:
   server:
     embedded_ruby: True
