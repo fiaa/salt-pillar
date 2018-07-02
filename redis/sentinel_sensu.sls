@@ -6,7 +6,7 @@ redis:
     #source_path: salt://hostname/redis-sentinel.conf
     bind: {{ primary_ip }}
     port: 26379
-    protected-mode: 'yes'
+    protected-mode: no
     requirepass: |
       -----BEGIN PGP MESSAGE-----
       hQIMA91AuBJffLh9ARAAvdlW53wQ9NhaVgymWi4PU+H6e4Qr0tRDY6irblOnhbov
@@ -28,8 +28,6 @@ redis:
       -----END PGP MESSAGE-----
 
     dir: '/var/lib/redis'
-    extra_opts:
-      supervised: systemd
 
     masters:
       mymaster1:
