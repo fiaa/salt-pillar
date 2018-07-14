@@ -11,9 +11,6 @@ base:
   'G@roles:salt_master':
     - salt.master
 
-  'G@virtual:LXC':
-    - salt.minion_dev
-
   'G@roles:sensu and G@sensu_roles:server':
     - sensu.server
     - sensu.api
@@ -38,3 +35,7 @@ base:
 
   'G@roles:sensu and G@roles:redis and G@redis_roles:sentinel':
     - redis.sentinel_sensu
+
+  'G@virtual:LXC':
+    - salt.minion_dev
+    - common_dev
